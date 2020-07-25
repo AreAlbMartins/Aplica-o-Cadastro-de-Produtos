@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import dj_database_url
 
-#usando Postgrees com Heroku
+#usando PostgreSQL com Heroku
 DATABASES = {
     'default': dj_database_url.config()
 }
